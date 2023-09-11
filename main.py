@@ -8,7 +8,7 @@ def extract_prefab_data_chunked_refined(file_path):
         "zWalls", "Rooms", "RoomTypes", "Bedroom1", "Bedroom2", "livingroom",
         "Window", "Environment", "Floor", "CreatedObjects", "CreatedBoxes", "BoxGroup", "visuals",
         "link_", "midpoint_",
-        "corner_", "faceCenter_", "shadow", "Black_Right_Arrow", "rigRoot"
+        "corner_", "faceCenter_", "shadow", "Black_Right_Arrow", "rigRoot", "box"
     ]
 
     with open(file_path, 'r') as prefab_file:
